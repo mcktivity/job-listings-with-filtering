@@ -1,0 +1,50 @@
+@import "../01-config/variables.scss";
+
+.tag {
+  background: $Light-Grayish-Cyan-Filter;
+  color: $Desaturated-Dark-Cyan;
+  font-size: 13px;
+  line-height: 28px;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+  transition: all ease 0.2s;
+  padding: 2px 10px 0px;
+}
+
+.tag--has-icon {
+  border-radius: 5px 0 0 5px;
+}
+
+.tag--no-icon {
+  border-radius: 5px;
+  &:hover {
+    cursor: pointer;
+    background: $Desaturated-Dark-Cyan;
+    color: $Light-Grayish-Cyan-Filter;
+  }
+  &:active {
+    background: $Dark-Grayish-Cyan;
+    color: $Light-Grayish-Cyan-Filter;
+  }
+}
+
+.tag-icon {
+  display: block;
+  height: 32px;
+  padding: 9px;
+  background: $Desaturated-Dark-Cyan;
+  border-radius: 0 5px 5px 0;
+  transition: all ease 0.2s;
+  &:hover {
+    cursor: pointer;
+    background: $Very-Dark-Grayish-Cyan;
+  }
+  &:active {
+    background: $Desaturated-Dark-Cyan;
+  }
+}
+
+.tag-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+}

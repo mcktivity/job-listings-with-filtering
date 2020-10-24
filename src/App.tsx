@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Home } from "./Home/_index.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+    <main className="container">
+      <Home />
+      <div id="credits">
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt"
+          rel="norefferer noopener"
         >
-          Learn React
+          Frontend Mentor Challenge
+        </a>{" "}
+        Coded by{" "}
+        <a
+          href="https://frontendmentor.io/profile/mcktivity"
+          rel="norefferer noopener"
+        >
+          Mcklien
         </a>
-      </header>
-    </div>
+      </div>
+    </main>
   );
 }
 

@@ -1,0 +1,17 @@
+@import "../01-config/variables.scss";
+
+.label {
+  color: $Light-Grayish-Cyan;
+  border-radius: 12px;
+  padding: 4px 8px 0px;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  &--featured {
+    background-color: $Very-Dark-Grayish-Cyan;
+  }
+  &--new {
+    background-color: $Desaturated-Dark-Cyan;
+  }
+}

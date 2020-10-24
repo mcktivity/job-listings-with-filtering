@@ -1,0 +1,18 @@
+@import "../01-config/variables.scss";
+
+.btn {
+  border: none;
+  outline: none;
+  background: none;
+
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "Spartan", sans-serif;
+  text-transform: capitalize;
+  color: $Desaturated-Dark-Cyan;
+}
+
+.btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
