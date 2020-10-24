@@ -8,14 +8,14 @@ function App() {
       <div id="credits">
         <a
           href="https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt"
-          rel="norefferer noopener"
+          rel="noreferrer noopener"
         >
           Frontend Mentor Challenge
         </a>{" "}
         Coded by{" "}
         <a
           href="https://frontendmentor.io/profile/mcktivity"
-          rel="norefferer noopener"
+          rel="noreferrer noopener"
         >
           Mcklien
         </a>
