@@ -17,7 +17,9 @@ export default ({
       >
         {label}
       </div>
-      {icon && <img src={icon} className="tag-icon" onClick={onClick} />}
+      {icon && (
+        <img src={icon} className="tag-icon" onClick={onClick} alt="remove" />
+      )}
     </div>
   );
 };
